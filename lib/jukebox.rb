@@ -29,7 +29,7 @@ def play(songs)
     if input < songs.length
       answer == songs[input]
     else
-      puts "That is not a valid song"
+      puts "Invalid input, please try again."
   else
   
   
