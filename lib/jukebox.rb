@@ -22,4 +22,4 @@ def exit_jukebox
   exit
 end
 def play(songs)
-  puts "Please"
+  puts "Please enter a song name or number:"
