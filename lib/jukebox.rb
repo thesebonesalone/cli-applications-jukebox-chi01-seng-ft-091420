@@ -27,7 +27,7 @@ def play(songs)
     input = input.to_i - 1
     if input < songs.length
       answer = songs[input]
-      puts answer
+      puts "Playing #{answer}"
       return answer
     else
       puts "Invalid input, please try again."
@@ -36,10 +36,30 @@ def play(songs)
   else
     songs.each do |index|
       if index == input
-        puts index
+        puts "Playing #{index}"
         return index
       end
     end
     puts "Invalid input, please try again."
+  end
+end
+
+def run(songs)
+  input = ""
+  while input != "exit" do
+    puts "Please enter a command:"
+    gets.strip
+    if input == "help"
+      help
+    end
+    if input == "exit"
+      exit_jukebox
+    end
+    if input == "play"
+      play(songs)
+    end
+    if input == "list"
+      list(songs)
+    end
   end
 end
