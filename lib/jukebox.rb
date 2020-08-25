@@ -16,3 +16,5 @@ def list(songs)
     count += 1
   end
 end
+
+def exit_jukebox
