@@ -13,3 +13,4 @@ def list(songs)
   songs.each do |index|
     puts index
   end
+end
