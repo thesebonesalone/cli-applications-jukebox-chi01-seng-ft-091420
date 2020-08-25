@@ -28,6 +28,7 @@ def play(songs)
     input = input.to_i - 1
     if input < songs.length
       answer = songs[input]
+      puts answer
       return answer
     else
       puts "Invalid input, please try again."
@@ -36,6 +37,7 @@ def play(songs)
   else
     songs.each do |index|
       if index == input
+        puts index
         return index
       end
     end
