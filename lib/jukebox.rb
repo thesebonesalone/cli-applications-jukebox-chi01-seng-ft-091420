@@ -2,8 +2,9 @@
 
 
 def help
-  puts "I accept the following commands"
-  puts "Help: "
+  puts "I accept the following commands:"
+  puts "help : "
+  puts "list : "
   
   
   
