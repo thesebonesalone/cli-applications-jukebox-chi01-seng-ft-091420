@@ -32,6 +32,7 @@ def play(songs)
     else
       puts "Invalid input, please try again."
       return nil
+    end
   else
     songs.each do |index|
       if index == input
