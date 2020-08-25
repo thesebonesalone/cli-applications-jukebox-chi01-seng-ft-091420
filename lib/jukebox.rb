@@ -21,4 +21,5 @@ def exit_jukebox
   puts "Goodbye"
   exit
 end
-def play
+def play(songs)
+  puts "Please"
