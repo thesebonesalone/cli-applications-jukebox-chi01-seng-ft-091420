@@ -13,5 +13,6 @@ def list(songs)
   count = 1
   songs.each do |index|
     puts "#{count}. #{index}"
+    count += 1
   end
 end
