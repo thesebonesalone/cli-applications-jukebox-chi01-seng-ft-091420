@@ -2,7 +2,8 @@
 
 
 def help
-  songs.each do |index|
-    puts index
-  end
+  puts 
+  
+  
+  
 end
