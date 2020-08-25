@@ -23,7 +23,7 @@ def exit_jukebox
 end
 def play(songs)
   puts "Please enter a song name or number:"
-  input = gets.chomp
+  input = gets.strip
   
   
   
