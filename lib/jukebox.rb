@@ -25,9 +25,12 @@ def play(songs)
   puts "Please enter a song name or number:"
   input = gets.strip
   if input. length < 2
-    input = input.to_i
+    input = input.to_i - 1
     if input < songs.length
-      answer
+      answer == songs[input]
+    else
+      puts "That is not a valid song"
+  else
   
   
   
